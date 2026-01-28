@@ -1,0 +1,70 @@
+Python:
+---------
+Python is a high-level, interpreted, general-purpose programming language.
+     
+       Compilation       Interpretation
+Python Code  --> Binary Code ---> Machine code
+(if, else..)
+
+Compilation ----> It happens in one go
+Interpretation --> Line by line
+
+.py ---> extension of python file
+terminal --> command prompt, powershell, bash.....
+
+command to execute python file ---> python filename.py
+
+Print Function 
+-----------------
+print(data)
+data will be shown at the output.
+
+
+Input Function 
+-----------------
+input()
+To prompt input from user.
+It will always return a string.... 
+
+
+Syntax of python 
+------------------
+>> It is case-sensitive.(A is not a)
+>> Indendation Matters.(whitespace at the begenning of line.. to define block of code.)
+>>Comments --> Ignored by python. 
+Single line comment --> #
+Multi line comment ---> ''' '''
+
+Variables 
+----------
+It is named memory. used to store a data in it.
+
+varName=value
+
+Naming rules 
+--------------
+>> Variables can contain letters, numerics and _ -
+>> variable name cannot start with numeric
+>> No reserved keyword
+(PascalCase, camelCase)
+
+Datatypes 
+----------
+To find datatype of a variable --> type(obj)
+
+Integer --> Whole Numbers.Ex: -3,-2,1,2,3,0...
+Float --> Decimal Numbers. 1.0, 1.11., -2.45...
+String ---> Collection of Characters wrapped in either ' or ".
+Ex: 'hello', "Hi"
+"My fav line is "Do or die""
+Concatination ---> str1 + str2
+
+Boolean --> True / False
+
+Type Casting
+--------------
+int(obj)--> converts to int.
+str()
+float()
+bool()
+
