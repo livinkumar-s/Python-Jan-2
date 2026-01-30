@@ -68,3 +68,68 @@ str()
 float()
 bool()
 
+Operators 
+-------------
+>> It is a symbol or keyword that performs operations on values.
+
+1 + 4 = 5
+
+Arithmetic 
+------------
+Addition ---> + 
+Subtraction --> -
+Multiplication--> * 
+Division ---> / 
+Floor Division --> //
+Modulus ---> % 
+Exponentiation(power) ---> **
+
+BODMAS
+
+Comparison
+------------ (Boolean values)
+== --> equal
+!= --> Not equal 
+< --> less than 
+> --> great than
+<= --> less or equal 
+>= --> great or equal
+
+Logical Operators 
+------------------(Boolean)
+and --> and --> True --> both are True. False --> elsewhere
+or --> or--> Aything True--> True. Both False --> False
+not --> not inverts boolean
+
+Assignment Operators 
+----------------------
+= assign 
++= add and assign
+-= sub and assign
+*= mul and assign
+/= div and assign
+//= floor div and assign
+%= mod and assign
+**= expo and assign
+
+Binary Addition 
+------------------
+00 --> 0
+10,01 -->1
+11 --> 01
+111 --> 11
+
+Bitwise Operators 
+------------------
+AND --> & --> performs and operation between bits.
+OR --> | --> performs and operation between bits.
+NOT --> ~ --> inverts bits --> ~n=-(n+1)
+X-OR --> ^ --> performs and operation between bits.
+Right Shift --> >> 
+Left Shit --> <<
+
+Identity 
+----------
+
+Membership
+-----------
