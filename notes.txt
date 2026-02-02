@@ -135,6 +135,17 @@ Membership
 -----------
 
 
+
+Sequence (or) Iterable Objects 
+--------------------------------
+to find length of a sequence --> len(obj)
+
+>> If an object can return its own members one by one.
+Ex: String, List, Tuple, Dict.
+
+a="Hello world"  ---> a[6]='w'
+
+
 Control Flow 
 ---------------
 >> Conditional Clause 
@@ -177,3 +188,34 @@ If block inside another.
 if cond1:
        if cond2:
               block of code
+
+Loop 
+-----
+>> To execute a block of code for multiple times.
+
+While --> Condition Based Loop 
+For ---> Sequence Based Loop 
+
+While Loop 
+-----------
+while condition:
+       block of code
+
+it will keep executing the block of code over and over again as lond as the condition stays True.
+
+For Loop 
+--------
+Syntax
+---------
+for varName in Sequence:
+       block of code
+>> iterate over a sequence....
+
+Range ----> Return a temporary iterable object.
+
+range(length) ---> range(500) --> [0,...499]
+range(start,end) --> range(4,15) --> [4,6,7,8,...14]
+range(start,end,step) --> range(2,20,3) --> [2,5,8,11,14]
+
+Control Statements of Loops 
+------------------------------
