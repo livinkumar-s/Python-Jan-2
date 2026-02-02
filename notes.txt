@@ -133,3 +133,47 @@ Identity
 
 Membership
 -----------
+
+
+Control Flow 
+---------------
+>> Conditional Clause 
+>> Loop
+
+Conditional Clause 
+-------------------
+>> Using conditional clause statement we can make python to take decision according to the condition.
+
+If
+---
+Syntax:
+-----------
+if condition:
+       block of code
+
+condition --> an expression that returns boolean.
+True ---> It will execute the block of code.
+False ---> It won't
+
+Elif BLock 
+------------
+elif condition:
+       block of code
+
+condition --> an expression that returns boolean.
+True ---> It will execute the block of code.
+False ---> It won't
+
+Else 
+-----
+else:
+       block of code
+going to depend on condition given to if block.
+
+Nested If 
+----------
+If block inside another.
+
+if cond1:
+       if cond2:
+              block of code
