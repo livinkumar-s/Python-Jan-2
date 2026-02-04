@@ -196,14 +196,14 @@ Loop
 While --> Condition Based Loop 
 For ---> Sequence Based Loop 
 
-While Loop 
+While Loop (No of iteration is not known)
 -----------
 while condition:
        block of code
 
 it will keep executing the block of code over and over again as lond as the condition stays True.
 
-For Loop 
+For Loop (No. of iteration is known, to iter over a sequence)
 --------
 Syntax
 ---------
@@ -219,3 +219,5 @@ range(start,end,step) --> range(2,20,3) --> [2,5,8,11,14]
 
 Control Statements of Loops 
 ------------------------------
+break ---> will stop the loop
+continue ----> it will skip current iteration.
