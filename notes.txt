@@ -143,7 +143,21 @@ to find length of a sequence --> len(obj)
 >> If an object can return its own members one by one.
 Ex: String, List, Tuple, Dict.
 
+
+Indexing and Slicing 
+--------------------
 a="Hello world"  ---> a[6]='w'
+[1,2,3,"one".....] ---> list[1]
+negative indexing ---> -1,-2, -3
+
+Slicing:
+--------
+>> Extracting a part of a sequence
+iterObj[start:]
+iterObj[:end]
+iterObj[start:end]
+iterObj[::-1]
+
 
 
 Control Flow 
@@ -221,3 +235,80 @@ Control Statements of Loops
 ------------------------------
 break ---> will stop the loop
 continue ----> it will skip current iteration.
+
+
+Datastructures
+---------------
+>> It is a way of organizing, storing and managing data.
+
+List
+-----
+Syntax---> [ele1, ele2, ele3.....]
+Iterable 
+Mutable
+It allows duplicate elements
+
+In-built Methods of List 
+-----------------------------
+.append(ele) ---> To add an element to the list at the end.
+.extend(seq) ---> To add multiple elements...
+.insert(pos,ele)
+.remove(ele) --> to remove element by specifying it. first occurence
+.pop(ind)
+.count(ele) --> no of occur
+.index(ele) --> pos of the element
+.reverse()
+.sort()
+.clear()
+
+Tuple 
+------
+Syntax --> (ele1, ele2.....)
+Immutable
+Iterable 
+allows duplicates 
+
+Inbuilt methods:
+-----------------
+.count(ele) --> no of occur
+.index(ele) --> pos of the element
+
+Packing/Unpacking
+------------------
+person1=("Harsha",99,"hellen")
+
+name=person1[0]
+age=person1[1]
+
+name,age,spouse=person1
+
+Set 
+------
+Syntax --> {ele1, ele2, ele3......}
+No duplicates.
+Mutable 
+Iterable 
+
+In built methods
+-----------------
+.add(ele)
+.update(seq)
+.clear()
+
+.union(s2)
+.intersection(s2)
+.difference(s2)
+
+Dict 
+-----
+Syntax ---> {key:value,key:value.......}
+Iterable 
+Mutable 
+Key should be unique
+
+Inbuilt Methods 
+------------------
+.keys()
+.values()
+.items()
+.pop(key)
