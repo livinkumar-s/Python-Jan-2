@@ -67,6 +67,10 @@ int(obj)--> converts to int.
 str()
 float()
 bool()
+list()
+tuple()
+dict()
+set()
 
 Operators 
 -------------
@@ -312,3 +316,60 @@ Inbuilt Methods
 .values()
 .items()
 .pop(key)
+
+Function
+-----------
+>> It is a reusable block of code.
+In built Functions
+------------------
+print, input, type casting functions......
+
+User defined Functions
+-----------------------
+Syntax:
+-----------
+def fnName():
+       block of code 
+
+Calling ---> fnName()
+
+Parameters and Arguments 
+-------------------------
+P --> the variables that are created while defining a function.
+a --> the values that are getting passed while calling a function
+
+Types of Arguments
+---------------------
+Positional Argument
+-----------------------
+>> Assigning values for parameters with the same order.
+
+Named Argument
+--------------
+>> Assigning values for parameters using its name.
+
+Default Argument
+----------------
+>> Assigning default value for the parameter.
+
+Variable-length arguement
+---------------------------
+>> It is used when we want to fetch multiple arguement.
+
+def fnName(*a)
+
+Return
+----------
+>> to break a function.
+
+Scope
+--------
+Where a variable can be accessed.
+
+Local Scope
+------------
+variables or functions crteated inside a function.
+
+Global Scope
+------------
+variables or functions crteated outside of any function.
