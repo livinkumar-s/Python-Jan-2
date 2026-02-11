@@ -54,10 +54,49 @@ To find datatype of a variable --> type(obj)
 
 Integer --> Whole Numbers.Ex: -3,-2,1,2,3,0...
 Float --> Decimal Numbers. 1.0, 1.11., -2.45...
+
 String ---> Collection of Characters wrapped in either ' or ".
+It is Immutable.
+It is a sequence.
+
 Ex: 'hello', "Hi"
 "My fav line is "Do or die""
+
+Operations 
+--------------
 Concatination ---> str1 + str2
+Repetition ---> Str1*num
+
+Formatted Strings
+-------------------
+Ex= f' {varName} {varName}'
+
+In built methods 
+-----------------
+.upper()
+.lower()
+.title()
+.capitalize()
+
+.index(subStr) ---> error not found
+.find(subStr) ---> -1 not found
+.count(subStr)
+
+.isAlpha()
+.isalnum()
+.isdigit()
+
+.startswith(subStr)
+.endswith(subStr)
+
+.replace(old, new)
+
+.split(char) --> str to list
+.join(seq)
+
+.strip()
+.lstrip()
+.rstrip()
 
 Boolean --> True / False
 
@@ -137,7 +176,10 @@ Identity
 
 Membership
 -----------
+It is used to check whether a value exist inside a sequence
 
+in
+not in
 
 
 Sequence (or) Iterable Objects 
@@ -373,3 +415,4 @@ variables or functions crteated inside a function.
 Global Scope
 ------------
 variables or functions crteated outside of any function.
+
