@@ -173,6 +173,8 @@ Left Shit --> <<
 
 Identity 
 ----------
+is 
+is not
 
 Membership
 -----------
@@ -416,3 +418,54 @@ Global Scope
 ------------
 variables or functions crteated outside of any function.
 
+
+File Handling 
+--------------
+
+Error Handling (Exception Handling)
+---------------------------------------
+>> An error is a problem in aprogram that prevents it from running correctly.
+
+>Syntax errors 
+>Runtime errors
+>Logical errors
+
+Syntax Errors 
+--------------
+Errors that occur when python cannot understand your code.
+
+python stops before execution
+Ex: SyntaxError, IndentationError...
+
+Runtime errors (Exception)
+-----------------
+Errors that occur during program execution.
+program starts --> crashes while running
+
+Ex: TypeError, ValueError, ZeroDivisionError
+
+try:
+       block of code 
+except nameOfException:
+       handling code 
+finally:
+       block of code
+
+File Handling 
+--------------
+>> It allows you to read, write, data from external file.
+
+To open a file ---> open(addr, mode)
+To close a file---> file.close()
+
+To read all the contents ---> .read()
+To read contents line by line ---> .readline()
+To read contents line by line ---> .readlines()
+
+To write content --> .write()
+
+modes 
+--------
+read ---> 'r'
+write --> 'w'
+append --> 'a'

@@ -28,7 +28,7 @@
 # print(str1.title())
 # print(str1.capitalize())
 
-str1="helloworldhello"
+# str1="helloworldhello"
 # print(str1.index("y"))
 # print(str1.find("he"))
 
@@ -38,11 +38,18 @@ str1="helloworldhello"
 # print(str1.startswith("e"))
 # print(str1.replace("hello","hi"))
 
-str2="     I would love to play cricket       "
-lis1=['I', 'would', 'love', 'to', 'play', 'cricket']
+# str2="     I would love to play cricket       "
+# lis1=['I', 'would', 'love', 'to', 'play', 'cricket']
 
 #[]
 
 # res=str2.split()
 # res="---".join(lis1)
-print(str2.strip())
+# print(str2.strip())
+
+# ==
+
+a=[1,2,3]
+b=[1,2,3]
+
+print(a is not a)
