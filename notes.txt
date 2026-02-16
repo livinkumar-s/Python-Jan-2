@@ -490,3 +490,9 @@ class ClassName:
               attributes
 
 To create object ---> className()
+
+
+Contact Saver 
+----------------
+package ---> mysql-connector-python==8.0.33
+To install new package --> pip install package
