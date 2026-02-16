@@ -419,8 +419,6 @@ Global Scope
 variables or functions crteated outside of any function.
 
 
-File Handling 
---------------
 
 Error Handling (Exception Handling)
 ---------------------------------------
@@ -469,3 +467,26 @@ modes
 read ---> 'r'
 write --> 'w'
 append --> 'a'
+
+OOP 
+----
+Object Oriented Programming.
+>> OOP is a programming pattern that organizes code using objects and classes.
+
+Bottle ---> diameter, color ---> getting opened, getting closed.
+
+Blue print --> objects 
+(Bottle)        (bot1, bot2, bot3...)
+
+object ---> Attributes ---> Methods
+class ---> objects(obj1,obj2...)
+
+Class 
+---------
+syntax 
+-------
+class ClassName:
+       def __init__(self):
+              attributes
+
+To create object ---> className()
